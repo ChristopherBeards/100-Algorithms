@@ -1,0 +1,27 @@
+{
+  "name": "100-algorithms",
+  "version": "1.0.0",
+  "description": "Technical Interview preparation",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristopherBeards/100-Algorithms.git"
+  },
+  "author": "Christopher Beards",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChristopherBeards/100-Algorithms/issues"
+  },
+  "homepage": "https://github.com/ChristopherBeards/100-Algorithms#readme"
+}
