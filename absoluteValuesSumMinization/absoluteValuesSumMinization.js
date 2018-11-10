@@ -1,14 +1,12 @@
 const absoluteValuesSumMinization = numbers => {
-  let absoluteSum;
-  let reduced;
-  // Add each number in the array
-  reduced = numbers.reduce((accu, num) => accu + num);
+  // Determine if the given array is even
+  const isEven = numbers.length % 2 === 0;
 
-  // Find median
-  absoluteSum = reduced / numbers.length;
-
-  // Return the largest integer less than or equal to the given number
-  return Math.floor(absoluteSum);
+  return isEven
+    ? // If the length is even return the center index
+      numbers[numbers.length / 2 - 1]
+    : // Otherwise return the center-most index
+      numbers[Math.floor(numbers.length / 2)];
 };
 
 module.exports = absoluteValuesSumMinization;
