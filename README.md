@@ -5,4 +5,4 @@
 
 ## Author
 
-[Christopher Beards](https://www.linkedin.com/in/christopher-beards-1292b529/)
+[Christopher Beards](https://www.linkedin.com/in/christopher-beards-1292b529/) | [Source](https://github.com/PizzaPokerGuy/100AlgorithmsChallenge)
