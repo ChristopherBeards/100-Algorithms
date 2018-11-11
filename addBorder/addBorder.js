@@ -1,3 +1,5 @@
-const addBorder = arr => {};
+const addBorder = arr => {
+  return arr;
+};
 
 module.exports = addBorder;
