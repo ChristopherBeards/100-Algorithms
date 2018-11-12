@@ -4,10 +4,10 @@ const adjacentElementsProduct = require('../adjacentElementsProduct/adjacentElem
 
 describe('Adjacent Element Product', () => {
   it('Should return an integer', () => {
-    expect(adjacentElementProduct([3, 6, -2, -5, 7, 3])).to.be.an('number');
-  })
+    expect(adjacentElementsProduct([3, 6, -2, -5, 7, 3])).to.be.an('number');
+  });
 
   it('Should return the pair of adjacent elements that have the largest product', () => {
-    assert.equal(adjacentElementProduct([3, 6, -2, -5, 7, 3]), 21);
-  })
-})
+    assert.equal(adjacentElementsProduct([3, 6, -2, -5, 7, 3]), 21);
+  });
+});
