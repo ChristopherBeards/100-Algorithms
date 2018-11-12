@@ -4,7 +4,7 @@ const addTwoDigits = require('../addTwoDigits/addTwoDigits.js');
 
 describe('Add Two Digits', () => {
   it('Should return a number', () => {
-    expect(addTwoDigits(55)).to.be.an('integer');
+    expect(addTwoDigits(55)).to.be.an('number');
   });
 
   it('Should return the sum of two digits', () => {
