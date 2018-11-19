@@ -32,9 +32,30 @@ class Tree {
     this.root = null;
   }
 
-  BFS(fn) {}
+  BFS(fn) {
+    const arr = [this.root];
+    while (arr.length) {
+      // Removes first element
+      const node = arr.shift();
 
-  DFS(fn) {}
+      // Add nodes children to the back of the array
+      arr.push(...node.children);
+      fn(node);
+    }
+  }
+
+  DFS(fn) {
+    const arr = [this.root];
+
+    while(arr.length) {
+      // Remove first element
+      const node = arr.shift();
+
+      // Add nodes children to the front of the array
+      arr.unshift(...node.children);
+      fn(node);
+    }
+  }
 }
 
 module.exports = { Tree, Node };

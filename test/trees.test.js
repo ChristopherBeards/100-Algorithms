@@ -18,7 +18,7 @@ describe('Trees; BFS Works', () => {
   });
 
   it('Should return the correct array', () => {
-    assert.equal(letters, ['a', 'b', 'c', 'd']);
+    expect(letters).to.eql(['a', 'b', 'c', 'd']);
   });
 });
 
@@ -35,6 +35,6 @@ describe('Trees; DFS Works', () => {
   });
 
   it('Should return the correct array', () => {
-    assert.equal(letters, ['a', 'b', 'c', 'd']);
+    expect(letters).to.eql(['a', 'b', 'c', 'd']);
   });
 });
