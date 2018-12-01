@@ -1,0 +1,1 @@
+Receives a string and determines whether or not it is spelled correctly, if it can be changed, and if so, change it.
